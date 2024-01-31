@@ -4,7 +4,7 @@ Supercharge your prompt optimization without the hassle of elusive gold labels!
 
 Introducing GLaPE (Gold Label-agnostic Prompt Evaluation) – a groundbreaking methodology leveraging self-consistency and mutual-consistency refinement.
 
-Our GLaPE-based prompt optimization yields prompts comparable to accuracy-based ones.
+Our GLaPE-based prompt optimization yields prompts comparable to accuracy-based ones on six popular datasets.
 
 <div align="left">
 <img src="GLaPE.png">
