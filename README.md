@@ -32,7 +32,7 @@ Accuracy-based prompt optimization ([OPRO](https://arxiv.org/abs/2309.03409)):
 
 ```
 python main.py --dataset=gsm8k \
---test_dataset_size=50
+--test_dataset_size=50 \
 --evaluation_metric=accuracy	
 ```
 
