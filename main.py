@@ -266,8 +266,8 @@ def parse_arguments():
     args.log_file = args.log_dir + args.log_file_name
 
     if args.dataset == "aqua":
-        args.train_dataset_path = "./dataset/AQuA/train.json"
-        args.test_dataset_path = "./dataset/AQuA/test.json"
+        args.train_dataset_path = "./dataset/AQuA/aqua.json"
+        args.test_dataset_path = "./dataset/AQuA/aqua.json"
         args.direct_answer_trigger = "\nTherefore, among A through E, the answer is"
         args.example1 = "input:\nQ: A rectangle has a length of 8 centimeters and a width of 3 centimeters. Find the perimeter. Answer Choices: (A) 18cm (B) 22cm (C) 20cm (D) 30cm (E) 28cm\nA:<INS>\noutput:\nB\n\n"
         args.example2 = "input:\nQ: I have a money pouch containing Rs. 700. There are equal number of 25 paise coins, 50 paise coins and one rupee coins.How many of each are there? Answer Choices: (A) 453 (B) 651 (C) 400 (D) 487 (E) 286\nA:<INS>\noutput:\nC\n\n"
