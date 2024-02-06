@@ -6,6 +6,8 @@ Introducing GLaPE (Gold Label-agnostic Prompt Evaluation) – a groundbreaking m
 
 Our GLaPE-based prompt optimization yields prompts comparable to accuracy-based ones on six popular datasets.
 
+Check our [paper](https://arxiv.org/abs/2402.02408) for more information.
+
 <div align="left">
 <img src="GLaPE.png">
 </div>
@@ -45,3 +47,14 @@ python main.py --dataset=gsm8k \
 ```
 
 ## Citation
+
+```
+@misc{zhang2024glape,
+      title={GLaPE: Gold Label-agnostic Prompt Evaluation and Optimization for Large Language Model}, 
+      author={Xuanchang Zhang and Zhuosheng Zhang and Hai Zhao},
+      year={2024},
+      eprint={2402.02408},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
